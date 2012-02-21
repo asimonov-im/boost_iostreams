@@ -47,6 +47,7 @@
 									<listOptionValue builtIn="false" value="${QNX_TARGET}/../target-override/${CPUVARDIR}/lib"/>
 									<listOptionValue builtIn="false" value="${QNX_TARGET}/../target-override/${CPUVARDIR}/usr/lib"/>
 								</option>
+								<option id="com.qnx.qcc.option.linker.symbols.1319112801" name="Symbol options" superClass="com.qnx.qcc.option.linker.symbols" value="com.qnx.qcc.option.linker.symbols.all" valueType="enumerated"/>
 								<inputType id="com.qnx.qcc.inputType.linker.237853250" superClass="com.qnx.qcc.inputType.linker">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
@@ -142,7 +143,7 @@
 								<option id="com.qnx.qcc.option.compiler.shared.1411832528" name="Shared (-shared)" superClass="com.qnx.qcc.option.compiler.shared" value="true" valueType="boolean"/>
 								<option id="com.qnx.qcc.option.compiler.optlevel.1681405692" name="Optimization Level" superClass="com.qnx.qcc.option.compiler.optlevel" value="com.qnx.qcc.option.compiler.optlevel.0" valueType="enumerated"/>
 								<option id="com.qnx.qcc.option.compile.debug.1311813684" name="Debug (-g)" superClass="com.qnx.qcc.option.compile.debug" value="true" valueType="boolean"/>
-								<option id="com.qnx.qcc.option.compiler.profile2.1317579048" name="Build for Profiling (Function Instrumentation) (-finstrument-functions)" superClass="com.qnx.qcc.option.compiler.profile2" value="true" valueType="boolean"/>
+								<option id="com.qnx.qcc.option.compiler.profile2.1317579048" name="Build for Profiling (Function Instrumentation) (-finstrument-functions)" superClass="com.qnx.qcc.option.compiler.profile2" value="false" valueType="boolean"/>
 								<option id="com.qnx.qcc.option.compiler.security.1174136625" name="Enhanced Security (-fstack-protector-all)" superClass="com.qnx.qcc.option.compiler.security" value="true" valueType="boolean"/>
 								<option id="com.qnx.qcc.option.compiler.defines.1405265912" name="Defines (-D)" superClass="com.qnx.qcc.option.compiler.defines" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="_FORTIFY_SOURCE=2"/>
@@ -150,6 +151,7 @@
 								<option id="com.qnx.qcc.option.compiler.includePath.1721478857" name="Include Directories (-I)" superClass="com.qnx.qcc.option.compiler.includePath" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/boost_headers}&quot;"/>
 								</option>
+								<option id="com.qnx.qcc.option.compiler.profile.65519685" superClass="com.qnx.qcc.option.compiler.profile" value="true" valueType="boolean"/>
 								<inputType id="com.qnx.qcc.inputType.compiler.910352111" superClass="com.qnx.qcc.inputType.compiler"/>
 							</tool>
 							<tool id="com.qnx.qcc.tool.assembler.748257228" name="QCC Assembler" superClass="com.qnx.qcc.tool.assembler">
@@ -158,7 +160,7 @@
 							</tool>
 							<tool id="com.qnx.qcc.tool.linker.1139939284" name="QCC Linker" superClass="com.qnx.qcc.tool.linker">
 								<option id="com.qnx.qcc.option.linker.debug.1576681512" name="Debug (-g)" superClass="com.qnx.qcc.option.linker.debug" value="true" valueType="boolean"/>
-								<option id="com.qnx.qcc.option.linker.profile2.1395605971" name="Build for Profiling (Function Instrumentation) (-lprofiling)" superClass="com.qnx.qcc.option.linker.profile2" value="true" valueType="boolean"/>
+								<option id="com.qnx.qcc.option.linker.profile2.1395605971" name="Build for Profiling (Function Instrumentation) (-lprofiling)" superClass="com.qnx.qcc.option.linker.profile2" value="false" valueType="boolean"/>
 								<option id="com.qnx.qcc.option.linker.shared.2067330032" name="Shared (-shared)" superClass="com.qnx.qcc.option.linker.shared" value="true" valueType="boolean"/>
 								<option id="com.qnx.qcc.option.linker.langcpp.2134354427" name="C++ (-lang-c++)" superClass="com.qnx.qcc.option.linker.langcpp" value="true" valueType="boolean"/>
 								<option id="com.qnx.qcc.option.linker.security.2082957623" name="Enhanced Security (-Wl,-z,relro -Wl,-z,now)" superClass="com.qnx.qcc.option.linker.security" value="true" valueType="boolean"/>
@@ -166,6 +168,7 @@
 									<listOptionValue builtIn="false" value="${QNX_TARGET}/../target-override/${CPUVARDIR}/lib"/>
 									<listOptionValue builtIn="false" value="${QNX_TARGET}/../target-override/${CPUVARDIR}/usr/lib"/>
 								</option>
+								<option id="com.qnx.qcc.option.linker.profile.1219697001" superClass="com.qnx.qcc.option.linker.profile" value="true" valueType="boolean"/>
 								<inputType id="com.qnx.qcc.inputType.linker.744715776" superClass="com.qnx.qcc.inputType.linker">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
